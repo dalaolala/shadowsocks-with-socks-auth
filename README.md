@@ -14,10 +14,13 @@ For example, running a `ss-local` on VPS in China connecting to outside, then yo
 For usage please run `local.py`.
 
 yum install python-setuptools && easy_install pip
+
 yum install git
+
 git clone -b  master https://github.com/dalaolala/sssocket5.git
 
 cd sssocket5
+
 python setup.py install
 
 sslocal -s 酸酸服务器 -p 酸酸端口 -b "0.0.0.0" -l 1080 -k 酸酸密码 --socks-user socks5用户名 --socks-pass socks5密码 -m 酸酸加密方式
